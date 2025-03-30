@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 628048d6c9a6f9a48877e93010c1ad1b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _depthShader: {fileID: 4800000, guid: 9116991a065e96e43a75b672070cab14, type: 3}
+  - _blur: {instanceID: 0}
+  - dirLight: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
