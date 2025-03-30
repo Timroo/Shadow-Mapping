@@ -60,20 +60,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Users\27700\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\Unity-Projects\Github_repo\Shadow Mapping\Library\PackageCache\com.unity.collab-proxy@2.7.1\Lib\Editor\unityplastic.dll" />
-    <Analyzer Include="E:\Unity-Projects\Github_repo\Shadow Mapping\Library\PackageCache\com.unity.collab-proxy@2.7.1\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll" />
-    <Analyzer Include="E:\Unity-Projects\Github_repo\Shadow Mapping\Library\PackageCache\com.unity.collab-proxy@2.7.1\Lib\Editor\log4netPlastic.dll" />
-    <Analyzer Include="E:\Unity-Projects\Github_repo\Shadow Mapping\Library\PackageCache\com.unity.collab-proxy@2.7.1\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll" />
     <Analyzer Include="D:\Program Files\Unity\Hub\Editor\2022.3.40f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\Program Files\Unity\Hub\Editor\2022.3.40f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ShadowMapping.cs" />
+    <Compile Include="Assets\Cascaded Shadow Mapping\Scripts\CascadedShadowMapping.cs" />
+    <Compile Include="Assets\Cascaded Shadow Mapping\Scripts\ShadowMapDebugger4.cs" />
+    <Compile Include="Assets\Screen Space Shadow Map\Scripts\ScreenSpaceShadowMap.cs" />
+    <Compile Include="Assets\Cascaded Shadow Mapping\Scripts\FlyCamera.cs" />
+    <Compile Include="Assets\Shadow Mapping\Scripts\ShadowMapping.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Shaders\ShadowCaster.shader" />
-    <None Include="Assets\Shaders\ShadowReceiver.shader" />
-    <None Include="Assets\Shaders\blurCompute.compute" />
+    <None Include="Assets\Screen Space Shadow Map\Shaders\ShadowReceiver.shader" />
+    <None Include="Assets\Shadow Mapping\Shaders\ShadowCaster.shader" />
+    <None Include="Assets\Shadow Mapping\Shaders\ShadowReceiver.shader" />
+    <None Include="Assets\Cascaded Shadow Mapping\Shaders\ShadowCaster.shader" />
+    <None Include="Assets\Screen Space Shadow Map\Shaders\ShadowCaster.shader" />
+    <None Include="Assets\Screen Space Shadow Map\Shaders\SSShadowCompute.shader" />
+    <None Include="Assets\Shadow Mapping\Shaders\blurCompute.compute" />
+    <None Include="Assets\Cascaded Shadow Mapping\Shaders\ShaderReceiver.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
